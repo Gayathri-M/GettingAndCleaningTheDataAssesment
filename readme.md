@@ -7,11 +7,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 into a folder on your local drive
 
 * Set your current working directory to your local drive where you have the data set with the following command
-	* setwd(“local_directory”)
+	* setwd(ï¿½local_directoryï¿½)
 
-* Put the code file run_analysis.R to your local directory
+* Put the code file run_analysis.R to your local directory.
 
-* Set the source in R to run_analysis.R this can be accomplished with source(“run_analysis.R”)
+* Set the source in R to run_analysis.R this can be accomplished with source(ï¿½run_analysis.Rï¿½)
 
 * Then on running the R script, it will read the dataset and write these files:
 tidy_data_1.txt
