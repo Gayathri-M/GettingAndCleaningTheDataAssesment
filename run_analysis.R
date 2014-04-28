@@ -1,7 +1,7 @@
 setwd("E:\\Go geek\\Getting and Cleaning Data\\UCI HAR Dataset")
 
 ##This is where all the required data is brought into the script and they are individually
-##rowbinded into suitable dataframes for futher processing downstream
+##rowbinded into suitable dataframes for futher processing downstream.
 
 t1 <- read.table("train/X_train.txt")
 t2 <- read.table("test/X_test.txt")
