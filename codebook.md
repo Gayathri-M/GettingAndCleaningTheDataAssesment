@@ -7,10 +7,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## The analysis steps
 
-* Merges the training and test sets  and creates individual datasets
+* Merges the training and test sets  and creates individual datasets,
 
-  * train/X_train.txt and test/X_test.txt – creates a  10299 x 561 data frame
-  * train/subject_train.txt and test/subject_test.txt – creates a 10299 x 1 data   frame with subject IDs
+  * train/X_train.txt and test/X_test.txt ï¿½ creates a  10299 x 561 data frame
+  * train/subject_train.txt and test/subject_test.txt ï¿½ creates a 10299 x 1 data   frame with subject IDs
   train/y_train.txt and test/y_test.txt -- creates a 10299 x 1 data frame with activity IDs.
 
 * Reads file features.txt and extracts the measurements on the mean and standard deviation of each observed measurement 
@@ -25,7 +25,7 @@ This produces a 10299 x 66 data frame, with all measurements being floating poin
   * walking
   * standing
 
-* Script labels the data set with meaning full and descriptive names: all feature names (attributes) and activity names are converted to lower case, with underscores and parenthesis ‘()’ being removed are removed.
+* Script labels the data set with meaning full and descriptive names: all feature names (attributes) and activity names are converted to lower case, with underscores and parenthesis ï¿½()ï¿½ being removed are removed.
 Also merges the data frame containing features with data frames containing activity labels and subject IDs.
 The result is saved as tidy_data_1, a 10299x68 data frame such that the first column contains subject IDs, the second column activity names, and the last 66 columns are measurements. 
 Subject IDs are integers between 1 and 30. Names of the attributes are similar to the following:
